@@ -1,0 +1,48 @@
+# ==========================================
+# Keil MDK build outputs
+# ==========================================
+
+**/Objects/
+**/Listings/
+
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.dep
+*.build_log.htm
+
+# Keil user-specific files
+*.uvguix.*
+*.uvoptx
+*.scvd
+
+
+# ==========================================
+# STM32CubeIDE build outputs
+# ==========================================
+
+Debug/
+Release/
+
+
+# ==========================================
+# Editor and operating-system temporary files
+# ==========================================
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+*.tmp
+*.swp
+*.bak
+~$*
